@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DOHEE IM</title>
+<meta name="description" content="전시 기록 아카이브 및 포트폴리오.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=Gothic+A1:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="top">
+  <!-- ▼ 이름 -->
+  <button class="top__nm" type="button" data-go="top">DOHEE IM</button>
+  <nav class="top__nav lbl" aria-label="섹션">
+    <button type="button" data-go="#about">소개</button>
+    <button type="button" data-go="#ex">전시</button>
+    <button type="button" data-go="#cv">이력</button>
+    <button type="button" data-go="#ct">연락처</button>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ================= 이름 ================= -->
+  <section class="hero">
+    <h1 class="hero__nm rise">DOHEE IM</h1>
+    <span class="hero__ro lbl rise rise--2">임도희 · Seoul</span>
+    <p class="hero__line rise rise--3">
+      미술관과 박물관을 찾아다니며 전시를 기록하고, 본 것을 다른 사람이 읽을 수 있는 형태로 정리합니다.
+    </p>
+    <div class="hero__meta lbl rise rise--3">
+      <span>전시 <b id="cnt">—</b></span>
+      <span>기록 시작 2022</span>
+      <span>Archive 2026</span>
+    </div>
+  </section>
+
+  <!-- ================= 소개 ================= -->
+  <section class="sec sec--w about" id="about">
+    <div>
+      <span class="head__l lbl" style="display:block;margin-bottom:20px">소개 · About</span>
+      <p class="about__lede rv">
+        보는 일과 기록하는 일을 함께 해왔습니다.
+      </p>
+    </div>
+    <div class="rv">
+      <p class="about__p">
+        2022년부터 서울과 근교의 전시를 찾아다니며 관람 기록을 남기고 있습니다.
+        고미술과 공예, 현대미술과 박물관 전시를 가리지 않고 봅니다.
+        작품 자체만이 아니라 전시가 짜여지는 방식과 그것이 관람객에게
+        가닿는 과정에 관심이 있습니다.
+      </p>
+      <p class="about__p">
+        기획과 글, 이미지 편집을 직접 합니다. 흩어진 것을 모아 구조를 만들고
+        여러 사람이 읽을 형태로 다듬는 과정을 특히 좋아합니다.
+        현재는 문화예술 콘텐츠 분야에서 경험을 쌓아가는 중입니다.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 전시 ================= -->
+  <section class="sec" id="ex">
+    <div class="head">
+      <span class="head__l lbl">전시 기록 · Exhibitions</span>
+      <div class="vw" role="group" aria-label="보기 방식">
+        <button id="vList" aria-pressed="true">Index</button>
+        <button id="vGrid" aria-pressed="false">Grid</button>
+      </div>
+    </div>
+    <div class="work" id="work"></div>
+    <div class="idx" id="idx"></div>
+  </section>
+
+  <!-- ================= 이력 ================= -->
+  <section class="sec sec--w" id="cv">
+    <div class="head"><span class="head__l lbl">이력 · 활동</span></div>
+    <div class="rv">
+      <div class="cv__r">
+        <span class="cv__y lbl">2026</span>
+        <span class="cv__t">서울청년기획봉사단 3기</span>
+        <p class="cv__d">머물지도 웹 사이트 개발, 데이터 분석을 담당하였습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2026</span>
+        <span class="cv__t">교내 AI•DX 학습공동체 프로그램</span>
+        <p class="cv__d">튜터로 참여하여 프로그램 운영・기획을 담당하였습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2024</span>
+        <span class="cv__t">현대오토에버와 함께하는 고교생 IT 꿈나무 성장지원 사업</span>
+        <p class="cv__d">정보보안 전문 교육 이수 후 화이트해커 경진 대회에서 우수상과 특별상을 수상하였습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2023-2024</span>
+        <span class="cv__t">뭐지 뉴스레터</span>
+        <p class="cv__d">아티클러로 참여하여 최신 IT 트렌드에 맞춰 기사를 작성하였습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2022-2024</span>
+        <span class="cv__t">서울시청소년미디어센터 청소년운영위원회</span>
+        <p class="cv__d">2022년 위원장, 2023-2024년 위원으로 활동하여 청소년센터 평가, 프로그램 기획 및 운영 등을 진행하였습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2022</span>
+        <span class="cv__t">서서울미술관 사전 프로그램</span>
+        <p class="cv__d">서서울미술관 사전프로그램 <디지털 세상, 지워지지 않는 데이터: 청소년과 경험을 나누다>에 참여해 대담을 나누었습니다</p>
+      </div>
+      <div class="cv__r">
+        <span class="cv__y lbl">2021-2022</span>
+        <span class="cv__t">동작구 청소년의회</span>
+        <p class="cv__d">상임위원회 팀장으로 활동하여 지역 사회와 청소년 문제에 대한 논의와 해결 방안을 모색하였습니다</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 연락처 ================= -->
+  <section class="sec ct" id="ct">
+    <div>
+      <h2 class="ct__h">연락처</h2>
+      <p class="ct__p">
+        문의나 제안이 있으시면 아래로 연락 주시면 감사하겠습니다.
+      </p>
+    </div>
+    <ul class="ct__l">
+      <li><span class="lbl">Email</span><a href="mailto:doheeim@naver.com">doheeim@naver.com</a></li>
+      <li><span class="lbl">Instagram</span><a href="https://www.instagram.com/hhh.onie/" target="_blank" rel="noopener">@hhh.onie</a></li>
+      <li><span class="lbl">Instagram</span><a href="https://www.instagram.com/hhh.rion/" target="_blank" rel="noopener">@hhh.rion</a></li>
+
+    </ul>
+  </section>
+
+  <footer class="foot lbl">
+    <span>DOHEE IM · Archive</span>
+    <span>Seoul</span>
+  </footer>
+</main>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
