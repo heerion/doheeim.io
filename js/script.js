@@ -6,6 +6,8 @@
    ============================================================ */
 const EX = [
   // 2026년도
+  { t:"명상관", v:"뮤지엄 산",     d:"2026.07", img:"", url:"https://www.museumsan.org/meditation?tab=intro"},
+  { t:"제임스 터렐관", v:"뮤지엄 산",     d:"2026.07", img:"", url:"https://www.museumsan.org/james-turrell"},
   { t:"En attendant: 기다리며", v:"뮤지엄 산",     d:"2026.07", img:"", url:"https://www.museumsan.org/art-museum?tab=exhibition-intro"},
   { t:"단원 김홍도, 시대를 그리다", v:"국립중앙박물관",     d:"2026.07", img:"", url:"https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?menuId=current&schM=view&act=current&exhiSpThemId=3515965&listType=list"},
   { t:"어메이징 타일랜드: 태국미술명품전", v:"국립중앙박물관",     d:"2026.07", img:"", url:"https://www.museum.go.kr/MUSEUM/contents/M0202010000.do?menuId=current&exhiSpThemId=3529711&schM=view&listType=list" },
